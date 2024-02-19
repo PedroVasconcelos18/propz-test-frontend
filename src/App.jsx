@@ -106,13 +106,13 @@ function App() {
                     >
                         Get Perfect Numbers
                     </Button>
-                        <IconButton
-                            id="clearButton"
-                            variant="text"
-                            size="sm"
-                            onClick={clearFields}>
-                            <FontAwesomeIcon icon={faXmark} />
-                        </IconButton>
+                    <IconButton
+                        id="clearButton"
+                        variant="text"
+                        size="sm"
+                        onClick={clearFields}>
+                        <FontAwesomeIcon icon={faXmark}/>
+                    </IconButton>
 
                     {isApiCallCompleted && (
                         <div className="pt-5">
